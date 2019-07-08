@@ -1,0 +1,29 @@
+{
+    "name": "borsaco/tcpdf-bundle",
+    "type": "symfony-bundle",
+    "description": "A bundle to easily integrate TCPDF into Symfony",
+    "keywords": ["pdf", "tcpdf", "symfony", "symfony2", "symfony3"],
+    "homepage": "https://borsaco.ir",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rich Sage",
+            "email": "rich.sage@gmail.com"
+        },
+        {
+            "name": "Alireza Seddighi",
+            "email": "seddighi@borsaco.ir"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0",
+        "tecnickcom/tcpdf": "*"
+    },
+    "autoload": {
+        "psr-4": { "Borsaco\\TCPDFBundle\\": "" }
+    }
+}
